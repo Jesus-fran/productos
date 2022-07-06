@@ -1,0 +1,62 @@
+.navbar,
+.footer {
+    background-color: rgb(125, 204, 145);
+}
+
+body {
+    /* background-color: rgba(54, 54, 54, 0.897); */
+    background-color: white;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.btn_nav {
+    z-index: 99;
+    color: rgb(0, 0, 0);
+    font-size: 24pt;
+    font-weight: bold;
+}
+
+.footer a,
+.navbar a {
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: rgb(2, 2, 2);
+    background-color: rgba(236, 236, 236, 0.473);
+}
+
+.instagram {
+    display: inline-block;
+    text-align: center;
+    border-radius: 40px;
+    color: #fff;
+    line-height: 10px;
+    vertical-align: middle;
+    background: #d6249f;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+}
+
+.banner1 {
+    background-color: rgb(125, 204, 145);
+    height: 30vh;
+    text-align: center;
+}
+
+.banner1:hover {
+    opacity: 0.9;
+}
+
+.galeria img {
+    width: 250px;
+    height: 150px;
+    max-width: 250px;
+    max-height: 150px;
+    margin: 20px;
+}
