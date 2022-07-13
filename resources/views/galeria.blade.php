@@ -124,4 +124,7 @@
             
         </div>
     </div>
+    <script>
+        document.title = "EcoTic | Galería";
+    </script>
 @endsection

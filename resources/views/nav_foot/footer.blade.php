@@ -1,4 +1,5 @@
 <div class="footer">
+    <span class="d-block p-1 line-foot text-white">d-block</span>
 
     <div class="container">
         <div class="row gy-3">

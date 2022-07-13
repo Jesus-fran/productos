@@ -71,4 +71,7 @@
         </div>
     </div>
     <br><br>
+    <script>
+        document.title = "EcoTic | Conócenos";
+    </script>
 @endsection

@@ -9,7 +9,7 @@
                     <div class="card-body">
                         <h6>Sistema de riego automatizado</h6>
                         <br>
-                        <img src="{{ asset('imagenes/banner1.webp') }}" alt="Sistema de riego interligente"
+                        <img src="{{ asset('imagenes/banners/banner1.webp') }}" alt="Sistema de riego interligente"
                             class="img-fluid">
                     </div>
                 </div>
@@ -66,4 +66,7 @@
             </div>
         </div>
     </div>
+    <script>
+        document.title = "EcoTic | Productos";
+    </script>
 @endsection

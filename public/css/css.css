@@ -1,18 +1,41 @@
 .navbar,
 .footer {
-    background-color: rgb(125, 204, 145);
+    /* background-color: rgb(110, 190, 150); */
+    background-color: rgb(87, 197, 160);
 }
 
 body {
     /* background-color: rgba(54, 54, 54, 0.897); */
     background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .logo {
-    width: 50px;
-    height: auto;
+    width: auto;
+    height: 50px;
     margin-left: 10%;
-    margin-right: -8%;
+}
+
+.banner-home {
+    height: 83vh;
+    margin-top: 1px;
+}
+
+.no-padding {
+    padding: 0;
+}
+
+.img-banner {
+    margin-top: 1px;
+    height: 93vh;
+}
+
+.banner-movil {
+    height: 40vh;
+}
+
+.btn-exproductos {
+    margin-bottom: 10px;
 }
 
 ul {
@@ -51,13 +74,11 @@ ul {
 }
 
 .banner1 {
-    background-color: rgb(125, 204, 145);
+    background-color: rgb(87, 197, 160);
     height: 30vh;
     text-align: center;
-}
-
-.banner1:hover {
-    opacity: 0.9;
+    padding: 0;
+    z-index: 99;
 }
 
 .galeria img {
@@ -66,4 +87,8 @@ ul {
     max-width: 250px;
     max-height: 150px;
     margin: 20px;
+}
+
+.btns {
+    background-color: rgb(255, 255, 255);
 }
