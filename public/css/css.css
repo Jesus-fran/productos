@@ -2,12 +2,34 @@
 .footer {
     /* background-color: rgb(110, 190, 150); */
     background-color: rgb(87, 197, 160);
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 body {
     /* background-color: rgba(54, 54, 54, 0.897); */
     background-color: white;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.font-contenido {
+    /* font-family: 'Mulish', sans-serif; */
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.titulo-1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    line-height: 2.0;
+    color: #004c3f;
+}
+
+.titulo-2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #004c3f;
 }
 
 .logo {
@@ -58,8 +80,8 @@ ul {
 }
 
 .navbar a:hover {
-    color: rgb(2, 2, 2);
-    background-color: rgba(236, 236, 236, 0.473);
+    color: white;
+    /* background-color: rgba(236, 236, 236, 0.473); */
 }
 
 .instagram {
@@ -75,7 +97,7 @@ ul {
 
 .banner1 {
     background-color: rgb(87, 197, 160);
-    height: 30vh;
+    height: 45vh;
     text-align: center;
     padding: 0;
     z-index: 99;

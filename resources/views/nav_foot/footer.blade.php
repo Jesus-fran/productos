@@ -1,10 +1,10 @@
 <div class="footer">
-    <span class="d-block p-1 line-foot text-white">d-block</span>
+    <span class="d-block p-1 line-foot text-white"></span>
 
     <div class="container">
         <div class="row gy-3">
             <div class="col text-center text-dark">
-                <h6>Redes sociales</h6>
+                <h5>Redes sociales</h5>
             </div>
         </div>
         <br>
@@ -36,9 +36,9 @@
         <br>
         <div class="row gy-3">
             <div class="col text-center text-dark">
-                <h6>
+                <h5>
                     Politicas y ayuda
-                </h6>
+                </h5>
             </div>
         </div>
         <br>

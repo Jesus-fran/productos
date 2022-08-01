@@ -6,24 +6,24 @@
             <div class="col-md-5 offset-md-1 text-center">
                 <div class="card">
                     <div class="card-body">
-                        <h6>Nosotros</h6>
+                        <h5 class="titulo-2">Nosotros</h5>
                     </div>
                 </div>
             </div>
             <div class="col-md-5 offset-md-1 text-center">
                 <div class="card">
                     <div class="card-body">
-                        <h6>¿Quienes somos?</h6>
+                        <h5 class="titulo-2">¿Quienes somos?</h5>
                     </div>
                 </div>
             </div>
         </div>
         <br>
-        <div class="row">
+        <div class="row font-contenido">
             <div class="col-md-5 offset-md-1 text-center">
                 <i class="bi bi-building fs-3"></i>
                 <div class="card border-0 border-start border-bottom">
-                    <div class="card-body">
+                    <div class="card-body hvr-float-shadow">
                         
                         <p>Somos una empresa en la que contamos con el conocimiento y experiencia para el desarrollo de software innovador, 
                             esto ayuda a los clientes a resolver problemas comerciales, permitiendo fusionar la excelencia
@@ -34,7 +34,7 @@
             <div class="col-md-5 offset-md-1 text-center">
                 <i class="bi bi-person fs-3"></i>
                 <div class="card border-0 border-start border-bottom">
-                    <div class="card-body">
+                    <div class="card-body hvr-float-shadow">
                         <ul>
                             <li>Diaz López Luis Adrian</li>
                             <li>López Diaz Marcelino</li>
@@ -49,15 +49,15 @@
         <br>
         <div class="row">
             <div class="col-6 offset-3 text-center">
-                <h6>Nuestros valores</h6>
+                <h5 class="titulo-2">Nuestros valores</h5>
             </div>
         </div>
         <br>
         <br>
-        <div class="row">
+        <div class="row font-contenido">
             <div class="col-md-6 offset-md-3 text-center">
                 <div class="card border-0 border-bottom">
-                    <div class="card-body">
+                    <div class="card-body hvr-sink">
                         <ul>
                             <li><i class="bi bi-hand-thumbs-up">&nbsp;&nbsp;</i>Honestidad</li>
                             <li><i class="bi bi-award-fill"></i>&nbsp;&nbsp;Calidad</li>
