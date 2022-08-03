@@ -48,18 +48,16 @@
                             aria-label="Slide 3"></button>
                     </div>
                     <div class="carousel-inner">
-                        <div class="carousel-item active" data-bs-interval="2000">
-                            <img src="{{ asset('imagenes/banners/home1.webp') }}" class="d-none d-md-block w-100 img-banner"
-                                alt="...">
-                            <img src="{{ asset('imagenes/banners/home1.webp') }}"
-                                class="d-sm-block d-md-none w-100 banner-movil" alt="...">
+                        <div class="carousel-item active" data-bs-interval="6000">
+
+                            <video src="{{ asset('imagenes/banners/plantas.mp4') }}" class="d-none d-md-block w-100" style="height: 50%" autoplay muted></video>
+                            <video src="{{ asset('imagenes/banners/plantas.mp4') }}" class="d-sm-block d-md-none w-100" style="height:40%" autoplay muted></video>
+                    
                             <div class="carousel-caption d-block">
                                 <h3 class="titulo-1 fw-bold text-light">Usa nuestras tecnologías para cuidar tus cosechas</h3>
-                                <br>
-                                <br>
-
                                 <a class="btn btn-light btn-exproductos hvr-wobble-horizontal" href="{{ route('producto') }}">Explorar
                                     productos</a>
+                                <div class="d-none d-md-block w-100"><br><br><br><br><br></div>
                             </div>
                         </div>
                         <div class="carousel-item" data-bs-interval="2000">

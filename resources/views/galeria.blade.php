@@ -13,9 +13,9 @@
                             aria-label="Slide 2"></button>
                         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
                             aria-label="Slide 3"></button>
-                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
                             aria-label="Slide 4"></button>
-                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
                             aria-label="Slide 5"></button>
                     </div>
                     <div class="carousel-inner">
@@ -80,82 +80,246 @@
                 <h6 class="titulo-2">Equipo harware de uso: </h6>
             </div>
         </div>
-        
+        <br><br>
         <div class="row galeria">
-            <div class="col-md-3 col-sm-12 hvr-grow">
-                <img src="{{ asset('imagenes/galeria/img20.jpg') }}" class="img-fluid" title="Sensor para medir la humedad">
+            <div class="col-md-4 col-sm-12 hvr-grow">
+                <div class="card">
+                    <div class="card-body">
+                        <img src="{{ asset('imagenes/galeria/img20.jpg') }}" class="img-fluid"
+                            title="Sensor para medir la humedad">
+                    </div>
+                    <div class="card-body text-center">
+                        Sensor para medir la humedad
+                    </div>
+                </div>
             </div>
-            <div class="col-md-3 col-sm-12 hvr-grow">
-                <img src="{{ asset('imagenes/galeria/img21.jpg') }}" class="img-fluid" title="Minibomba para el fluido de agua">
+            <div class="col-md-4 col-sm-12 hvr-grow">
+                
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="{{ asset('imagenes/galeria/img21.jpg') }}" class="img-fluid"
+                            title="Minibomba para el fluido de agua">
+                        </div>
+                        <div class="card-body text-center">
+                            Minibomba para el fluido de agua
+                        </div>
+                    </div>
             </div>
-            <div class="col-md-3 col-sm-12 hvr-grow">
-                <img src="{{ asset('imagenes/galeria/img22.jpg') }}" class="img-fluid" title="Display Arduino para ver los datos">
+            <div class="col-md-4 col-sm-12 hvr-grow">
+              
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="{{ asset('imagenes/galeria/img22.jpg') }}" class="img-fluid"
+                            title="Display Arduino para ver los datos">
+                        </div>
+                        <div class="card-body text-center">
+                            Display Arduino para ver los datos
+                        </div>
+                    </div>
             </div>
-            <div class="col-md-3 col-sm-12 hvr-grow">
-                <img src="{{ asset('imagenes/galeria/img14.jpg') }}" class="img-fluid" title="Higrometro para pedir cantidad de agua">
+            <div class="col-md-4 col-sm-12 hvr-grow">
+                
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="{{ asset('imagenes/galeria/img14.jpg') }}" class="img-fluid"
+                            title="Higrometro para pedir cantidad de agua">
+                        </div>
+                        <div class="card-body text-center">
+                            Higrometro para pedir cantidad de agua
+                        </div>
+                    </div>
             </div>
-            <div class="col-md-3 col-sm-12 hvr-grow">
-                <img src="{{ asset('imagenes/galeria/img16.jpg') }}" class="img-fluid" title="Arduino midiendo la temperatura de una planta">
+            <div class="col-md-4 col-sm-12 hvr-grow">
+                
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="{{ asset('imagenes/galeria/img16.jpg') }}" class="img-fluid"
+                    title="Arduino midiendo la temperatura de una planta">
+                        </div>
+                        <div class="card-body text-center">
+                            Arduino midiendo la temperatura de una planta
+                        </div>
+                    </div>
             </div>
-            <div class="col-md-3 col-sm-12 hvr-grow">
-                <img src="{{ asset('imagenes/galeria/img17.png') }}" class="img-fluid" title="Arduino conectado a un tablero y sensor">
+            <div class="col-md-4 col-sm-12 hvr-grow">
+                
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="{{ asset('imagenes/galeria/img17.png') }}" class="img-fluid"
+                            title="Arduino conectado a un tablero y sensor">
+                        </div>
+                        <div class="card-body text-center">
+                            Arduino conectado a un tablero y sensor
+                        </div>
+                    </div>
             </div>
-            <div class="col-md-3 col-sm-12 hvr-grow">
-                <img src="{{ asset('imagenes/galeria/img18.jpeg') }}" class="img-fluid" title="Se monitorean varias plantas con Arduino">
+            <div class="col-md-4 col-sm-12 hvr-grow">
+               
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="{{ asset('imagenes/galeria/img18.jpeg') }}" class="img-fluid"
+                    title="Se monitorean varias plantas con Arduino">
+                        </div>
+                        <div class="card-body text-center">
+                            Se monitorean varias plantas con Arduino
+                        </div>
+                    </div>
             </div>
-            <div class="col-md-3 col-sm-12 hvr-grow">
-                <img src="{{ asset('imagenes/galeria/img19.JPG') }}" class="img-fluid" title="Arduino y minibomba de agua">
+            <div class="col-md-4 col-sm-12 hvr-grow">
+               
+                
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="{{ asset('imagenes/galeria/img19.JPG') }}" class="img-fluid"
+                            title="Arduino y minibomba de agua">
+                        </div>
+                        <div class="card-body text-center">
+                            Arduino y minibomba de agua
+                        </div>
+                    </div>
             </div>
-           
+
         </div>
- 
+        <br><br><br>
         <div class="row">
             <div class="col-12 text-start">
                 <h6 class="titulo-2">Nuestro personal implementando el sistema: </h6>
             </div>
         </div>
+        <br><br>
         <div class="row galeria">
-            <div class="col-md-3 col-sm-12 hvr-grow">
-                <img src="{{ asset('imagenes/galeria/img15.webp') }}" class="img-fluid" title="Personal revisando la app móvil">
+            <div class="col-md-4 col-sm-12 hvr-grow">
+               
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="{{ asset('imagenes/galeria/img15.webp') }}" class="img-fluid"
+                            title="Personal revisando la app móvil">
+                        </div>
+                        <div class="card-body text-center">
+                            Personal revisando la app móvil
+                        </div>
+                    </div>
             </div>
-            <div class="col-md-3 col-sm-12 hvr-grow">
-                <img src="{{ asset('imagenes/galeria/img3.jpg') }}" class="img-fluid" title="Personal instalando los sensores">
+            <div class="col-md-4 col-sm-12 hvr-grow">
+               
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="{{ asset('imagenes/galeria/img3.jpg') }}" class="img-fluid"
+                            title="Personal instalando los sensores">
+                        </div>
+                        <div class="card-body text-center">
+                            Personal instalando los sensores
+                        </div>
+                    </div>
             </div>
-            <div class="col-md-3 col-sm-12 hvr-grow">
-                <img src="{{ asset('imagenes/galeria/img15.jpg') }}" class="img-fluid" title="Personal haciendo mantenimiendo de harware">
+            <div class="col-md-4 col-sm-12 hvr-grow">
+              
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="{{ asset('imagenes/galeria/img15.jpg') }}" class="img-fluid"
+                            title="Personal haciendo mantenimiendo de harware">
+                        </div>
+                        <div class="card-body text-center">
+                            Personal haciendo mantenimiendo de harware
+                        </div>
+                    </div>
             </div>
         </div>
 
-        
+        <br>
+        <br>
+        <br>
         <div class="row">
             <div class="col-12 text-start">
                 <h6 class="titulo-2">Nuestros conductos de agua en distintos cultivos: </h6>
             </div>
         </div>
-
+        <br><br>
         <div class="row galeria">
+    
+            <div class="col-md-4 col-sm-12 hvr-grow">
+               
+                
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="{{ asset('imagenes/galeria/img5.jpg') }}" class="img-fluid"
+                    title="Mangeras de riego en muchas plantas">
+                        </div>
+                        <div class="card-body text-center">
+                            Mangeras de riego en muchas plantas
+                        </div>
+                    </div>
+            </div>
+            <div class="col-md-4 col-sm-12 hvr-grow">
+                
+                <div class="card">
+                    <div class="card-body">
+                        <img src="{{ asset('imagenes/galeria/img6.jpg') }}" class="img-fluid" title="Mangeras de riego">
+                    </div>
+                    <div class="card-body text-center">
+                        Mangeras de riego
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12 hvr-grow">
+              
+                
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="{{ asset('imagenes/galeria/img7.webp') }}" class="img-fluid"
+                            title="Mangueras de riego unidas entre si">
+                        </div>
+                        <div class="card-body text-center">
+                            Mangueras de riego unidas entre si
+                        </div>
+                    </div>
+            </div>
 
-            <div class="col-md-3 col-sm-12 hvr-grow">
-                <img src="{{ asset('imagenes/galeria/img5.jpg') }}" class="img-fluid" title="Mangeras de riego en muchas plantas">
+            <div class="col-md-4 col-sm-12 hvr-grow">
+                
+                <div class="card">
+                    <div class="card-body">
+                        <img src="{{ asset('imagenes/galeria/img9.jpg') }}" class="img-fluid" title="Mangeras de riego">
+                    </div>
+                    <div class="card-body text-center">
+                        Mangeras de riego
+                    </div>
+                </div>
             </div>
-            <div class="col-md-3 col-sm-12 hvr-grow">
-                <img src="{{ asset('imagenes/galeria/img6.jpg') }}" class="img-fluid" title="Mangeras de riego">
+            <div class="col-md-4 col-sm-12 hvr-grow">
+                
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="{{ asset('imagenes/galeria/img10.jpg') }}" class="img-fluid"
+                    title="Manguera para riego por goteo">
+                        </div>
+                        <div class="card-body text-center">
+                            Manguera para riego por goteo
+                        </div>
+                    </div>
             </div>
-            <div class="col-md-3 col-sm-12 hvr-grow">
-                <img src="{{ asset('imagenes/galeria/img7.webp') }}" class="img-fluid" title="Mangueras de riego unidas entre si">
+            <div class="col-md-4 col-sm-12 hvr-grow">
+               
+
+                <div class="card">
+                    <div class="card-body">
+                        <img src="{{ asset('imagenes/galeria/img11.webp') }}" class="img-fluid" title="Manguera de riego">
+                    </div>
+                    <div class="card-body text-center">
+                        Manguera de riego
+                    </div>
+                </div>
             </div>
-            
-            <div class="col-md-3 col-sm-12 hvr-grow">
-                <img src="{{ asset('imagenes/galeria/img9.jpg') }}" class="img-fluid" title="Mangeras de riego">
-            </div>
-            <div class="col-md-3 col-sm-12 hvr-grow">
-                <img src="{{ asset('imagenes/galeria/img10.jpg') }}" class="img-fluid" title="Manguera para riego por goteo">
-            </div>
-            <div class="col-md-3 col-sm-12 hvr-grow">
-                <img src="{{ asset('imagenes/galeria/img11.webp') }}" class="img-fluid" title="Manguera de riego">
-            </div>
-            <div class="col-md-3 col-sm-12 hvr-grow">
-                <img src="{{ asset('imagenes/galeria/img12.webp') }}" class="img-fluid" title="Mangeras de riego">
+            <div class="col-md-4 col-sm-12 hvr-grow">
+                
+                <div class="card">
+                    <div class="card-body">
+                        <img src="{{ asset('imagenes/galeria/img12.webp') }}" class="img-fluid" title="Mangeras de riego">
+                    </div>
+                    <div class="card-body text-center">
+                        Mangeras de riego
+                    </div>
+                </div>
             </div>
         </div>
     </div>

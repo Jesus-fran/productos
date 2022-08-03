@@ -25,6 +25,7 @@
             <div class="row gy-4">
                 <div class="col-md-4 col-sm-6 col-xs-12">
                     <div class="card shadow hvr-grow">
+                        <div class="card-body bg-success"></div>
                         <div class="card-body">
                             <br>
                             <div class="col text-center">
@@ -54,6 +55,7 @@
 
                 <div class="col-md-4 col-sm-6  col-xs-12">
                     <div class="card shadow hvr-grow">
+                        <div class="card-body bg-primary"></div>
                         <div class="card-body">
                             <br>
                             <div class="col text-center">
@@ -84,6 +86,7 @@
 
                 <div class="col-md-4 col-sm-6  col-xs-12">
                     <div class="card shadow hvr-grow">
+                        <div class="card-body bg-warning"></div>
                         <div class="card-body">
                             <br>
                             <div class="col text-center">
