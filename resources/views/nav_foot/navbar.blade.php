@@ -10,19 +10,31 @@
         <div class="container navbar_collapsed" id="navbar_collapsed">
             <div class="row">
                 <div class="navbar-nav">
-                    
-                    <div class="col-md-auto offset-md-3 hvr-underline-from-center " id="opcion"><a class="nav-link"
-                        href="{{ route('home') }}"><i class="bi bi-house-door">&nbsp&nbsp</i>Inicio</a>
+
+                    <div class="col-md-auto offset-md-2 hvr-underline-from-center " id="opcion"><a class="nav-link"
+                            href="{{ route('home') }}"><i class="bi bi-house-door">&nbsp&nbsp</i>Inicio</a>
                     </div>
                     <div class="col-md-auto offset-md-1 hvr-underline-from-center" id="opcion"><a class="nav-link"
                             href="{{ route('producto') }}"><i class="bi bi-box">&nbsp&nbsp</i>Productos</a>
                     </div>
                     <div class="col-md-auto offset-md-1 hvr-underline-from-center" id="opcion"><a class="nav-link"
                             href="{{ route('galeria') }}"><i class="bi bi-card-image"></i>&nbsp&nbspGalería</a></div>
-                    <div class="col-md-auto offset-md-1 hvr-underline-from-center" id="opcion"><a class="nav-link" href="{{ route('conocenos') }}"><i class="bi bi-person"></i>Conócenos&nbsp&nbsp
+                    <div class="col-md-auto offset-md-1 hvr-underline-from-center" id="opcion"><a class="nav-link"
+                            href="{{ route('conocenos') }}"><i class="bi bi-person"></i>Conócenos
                         </a></div>
+
+                    @if (session('authenticated') != '')
+                        <div class="col-md-auto offset-md-1 hvr-underline-from-center" id="opcion"><a
+                                class="nav-link" href="{{ route('logout') }}"><i class="bi bi-box-arrow-in-right"></i>Cerrar sesión
+                            </a></div>
+                    @else
+                        <div class="col-md-auto offset-md-1 hvr-underline-from-center" id="opcion"><a
+                                class="nav-link" href="{{ route('login') }}"><i
+                                    class="bi bi-box-arrow-in-left"></i>Acceder
+                            </a></div>
+                    @endif
                 </div>
             </div>
         </div>
     </div>
-</nav>  
+</nav>

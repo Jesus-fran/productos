@@ -114,3 +114,16 @@ ul {
 .btns {
     background-color: rgb(255, 255, 255);
 }
+
+.contenedor_img_login {
+    overflow: hidden;
+}
+
+.img_login {
+    width: 420px;
+    /* width of container */
+    height: 710px;
+    /* height of container */
+    object-fit: cover;
+    object-position: 20% 10%;
+}

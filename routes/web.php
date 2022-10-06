@@ -1,6 +1,8 @@
 <?php
 
 use App\Http\Controllers\GetViewsController;
+use App\Http\Controllers\UserController;
+use Illuminate\Routing\ViewController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -18,3 +20,7 @@ Route::get('/', [GetViewsController::class, 'ViewIndex'])->name('home');
 Route::get('/producto', [GetViewsController::class, 'ViewProducto'])->name('producto');
 Route::get('/galeria', [GetViewsController::class, 'ViewGaleria'])->name('galeria');
 Route::get('/conocenos', [GetViewsController::class, 'ViewConocenos'])->name('conocenos');
+Route::get('/login', [GetViewsController::class, 'ViewLogin'])->name('login');
+Route::post('/iniciar-sesion', [UserController::class, 'login'])->name('iniciar-sesion');
+Route::get('/logout', [GetViewsController::class, 'Logout'])->name('logout')->middleware('user');
+Route::get('/panel', [GetViewsController::class, 'ViewPanel'])->name('panel')->middleware('user');

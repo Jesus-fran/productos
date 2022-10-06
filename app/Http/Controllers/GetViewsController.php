@@ -26,4 +26,20 @@ class GetViewsController extends Controller
     {
         return view('conocenos');
     }
+
+    public function ViewLogin()
+    {
+        return view('cuenta.login');        
+    }
+
+    public function ViewPanel()
+    {
+        return view('admin.panel');        
+    }
+
+    public function Logout()
+    {
+        session()->flush();
+        return redirect()->route('login');
+    }
 }
