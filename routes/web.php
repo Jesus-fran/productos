@@ -24,3 +24,4 @@ Route::get('/login', [GetViewsController::class, 'ViewLogin'])->name('login');
 Route::post('/iniciar-sesion', [UserController::class, 'login'])->name('iniciar-sesion');
 Route::get('/logout', [GetViewsController::class, 'Logout'])->name('logout')->middleware('user');
 Route::get('/panel', [GetViewsController::class, 'ViewPanel'])->name('panel')->middleware('user');
+Route::post('/registrar-user', [UserController::class, 'RegistrarUser'])->name('registrar-user')->middleware('user');

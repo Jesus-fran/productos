@@ -25,4 +25,11 @@ class UserModel extends Model
         $result = $service->signIn($email, $password);
         return $result;
     }
+
+    public static function registrarUSer($user, $email, $password)
+    {
+        $service = new FirebaseService();
+        $result = $service->addUser($email, $password, $user);
+        return $result;
+    }
 }

@@ -46,6 +46,9 @@ class FirebaseService
 
     public function addUser($email, $password, $displayName)
     {
+
+        // return $email.$password.$displayName;
+
         $auth = $this->firebase->createAuth();
         $userProperties = [
             'email' => $email,

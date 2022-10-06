@@ -38,4 +38,26 @@ class UserController extends Controller
         return redirect()->route('panel');
         
     }
+
+    public function RegistrarUser(Request $request)
+    {
+        $user = $request->user;
+        $email = $request->email;
+        $password = $request->password;
+
+        try
+        {
+            $email = UserModel::RegistrarUser($user, $email, $password);
+            if ($email->uid != '') {
+                return view('admin.panel', ['msg'=>'¡Registro exitoso!']);
+            }else{
+                return "Hubo un error";
+            }
+        }
+        catch(Exception $exception)
+        {
+            return $exception;
+            
+        }
+    }
 }

@@ -15,29 +15,33 @@
                 </div>
                 <div class="card">
                     <div class="card-body">
-                        <form>
+                        <form action="{{ route('registrar-user') }}" method="POST">
+                            @csrf
                             <div class="mb-3">
                                 <label for="input-user" class="form-label">Nombre de usuario</label>
-                                <input type="text" class="form-control" id="input-user"
+                                <input type="text" class="form-control" name="user" id="input-user"
                                     aria-describedby="userHelp">
                                 <div id="userHelp" class="form-text"></div>
                             </div>
                             <div class="mb-3">
                                 <label for="input-email" class="form-label">Dirección de correo
                                     electrónico</label>
-                                <input type="email" class="form-control" id="input-email"
+                                <input type="email" class="form-control" name="email" id="input-email"
                                     aria-describedby="emailHelp">
                                 <div id="emailHelp" class="form-text"></div>
                             </div>
                             <div class="mb-3">
                                 <label for="exampleInputPassword1" class="form-label">Contraseña</label>
-                                <input type="password" class="form-control" id="exampleInputPassword1">
+                                <input type="password" class="form-control" name="password" id="exampleInputPassword1">
                             </div>
                             <div class="col text-center">
                                 <button type="submit" class="btn btn-success">Registrar</button>
                             </div>
                         </form>
                     </div>
+
+                    <div class="col text-center"><span style="color:rgb(39, 148, 39);">{{$msg ?? '' }}</span></div>
+
                 </div>
             </div>
             <div class="col-5 offset-2">
