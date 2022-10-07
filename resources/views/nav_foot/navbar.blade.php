@@ -11,7 +11,7 @@
             <div class="row">
                 <div class="navbar-nav">
 
-                    <div class="col-md-auto offset-md-2 hvr-underline-from-center " id="opcion"><a class="nav-link"
+                    <div class="col-md-auto offset-md-1 hvr-underline-from-center " id="opcion"><a class="nav-link"
                             href="{{ route('home') }}"><i class="bi bi-house-door">&nbsp&nbsp</i>Inicio</a>
                     </div>
                     <div class="col-md-auto offset-md-1 hvr-underline-from-center" id="opcion"><a class="nav-link"
@@ -25,7 +25,13 @@
 
                     @if (session('authenticated') != '')
                         <div class="col-md-auto offset-md-1 hvr-underline-from-center" id="opcion"><a
-                                class="nav-link" href="{{ route('logout') }}"><i class="bi bi-box-arrow-in-right"></i>Cerrar sesión
+                                class="nav-link" href="{{ route('panel') }}"><i class="bi bi-card-heading"></i>&nbspPanel
+                            </a></div>
+
+
+                        <div class="col-md-auto offset-md-1 hvr-underline-from-center" id="opcion"><a
+                                class="nav-link" href="{{ route('logout') }}"><i
+                                    class="bi bi-box-arrow-in-right"></i>Salir
                             </a></div>
                     @else
                         <div class="col-md-auto offset-md-1 hvr-underline-from-center" id="opcion"><a

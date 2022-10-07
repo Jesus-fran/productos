@@ -32,4 +32,18 @@ class UserModel extends Model
         $result = $service->addUser($email, $password, $user);
         return $result;
     }
+
+    public static function getIdUsers()
+    {
+        $service = new FirebaseService();
+        $result = $service->getIdUsers();
+        return $result;
+    }
+
+    public static function addEmailUser($email)
+    {
+        $service = new FirebaseService();
+        $result = $service->setNameUser($email);
+        return $result;
+    }
 }

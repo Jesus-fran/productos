@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\UserModel;
 use Illuminate\Http\Request;
 
 class GetViewsController extends Controller
@@ -32,9 +33,22 @@ class GetViewsController extends Controller
         return view('cuenta.login');        
     }
 
-    public function ViewPanel()
+    public function ViewPanel(Request $request)
     {
-        return view('admin.panel');        
+        $email_act = $request->email_act;
+        $pass_act = $request->pass_act;
+
+        $id_users = UserModel::getIdUsers();
+        $users = '';
+        if ($id_users == null) {
+            $users = 'No existen usuarios almacenados';
+            return view('admin.panel', compact('users'));        
+        }
+        foreach ($id_users as $data) {
+            $users .= "<li class=\"list-group-item\"><i class=\"bi bi-person\" style=\"margin: 10px\"></i>".$data['email']."</li>";
+        }
+        
+        return view('admin.panel', compact('users', 'email_act', 'pass_act'));        
     }
 
     public function Logout()

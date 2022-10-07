@@ -2,6 +2,7 @@
 
 namespace App\Services;
 
+use Illuminate\Support\Str;
 require '../vendor/autoload.php';
 use Kreait\Firebase\Factory;
 
@@ -44,6 +45,13 @@ class FirebaseService
         return $sens;
     }
 
+    public function getIdUsers()
+    {
+        $reference = $this->db->getReference('users');
+        $users = $reference->getValue();
+        return $users;
+    }
+
     public function addUser($email, $password, $displayName)
     {
 
@@ -57,6 +65,20 @@ class FirebaseService
             'displayName' => $displayName,
         ];
         return $auth->createUser($userProperties);
+         
+    }
+
+    public function setNameUser($email)
+    {
+    
+    $id_generated = Str::random(10);
+
+    $user_new = [
+        'email' => $email,
+    ];
+
+    $reference = $this->db->getReference('users/'.$id_generated)->set($user_new);
+    return $reference;
          
     }
 

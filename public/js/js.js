@@ -6,3 +6,8 @@ function show_menu() {
     $('#opcion, #opcion').css('margin-top', '20%');
     $('#opcion, #opcion').css('background-color', 'rgba(0, 0, 0, 0.11)');
 }
+
+
+$('#registrar_user').submit(function() {
+    $('#registrar_user').attr('disabled', 'true');
+});

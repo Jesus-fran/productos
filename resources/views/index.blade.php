@@ -26,6 +26,7 @@
 
     <link rel="icon" type="image/jpg" href="{{ asset('favicon.ico') }}" />
     <link rel="stylesheet" href="{{ asset('css/hover-min.css') }}">
+    <script src="{{ asset('js/js.js') }}"></script>
 </head>
 
 <body>
