@@ -41,12 +41,7 @@
                                     <div class="pt-1 mb-4 text-center">
                                         <button class="btn btn-success btn-lg btn-block" type="submit">Login</button>
                                     </div>
-
                                     <div class="col text-center">
-                                        <a class="small text-muted" href="{{ route('home') }}">¿Se te olvidó tu
-                                            contraseña?</a>
-                                        <p class="mb-5 pb-lg-2" style="color: #004c3f;">¿No tienes una cuenta? <a
-                                                href="{{ route('home') }}" style="color: #004c3f;">Registrarse aquí</a></p>
                                         <a href="{{ route('home') }}" class="small text-muted">Términos de Uso.</a>
                                         <a href="{{ route('home') }}" class="small text-muted">Política de privacidad</a>
                                     </div>

@@ -46,7 +46,7 @@
                             </div>
                             <br><br>
                             <div class="col-12 text-center">
-                                <button type="button" class="btn btn-success btn-md">Comprar páquete básico</button>
+                                <a class="btn btn-success btn-md" href="https://api.whatsapp.com/send/?phone=529614473143" role="button">Comprar páquete básico</a>
                             </div>
                             <p class="font-contenido"></p>
                         </div>
@@ -78,7 +78,7 @@
                             </div>
                             <br><br>
                             <div class="col-12 text-center">
-                                <button type="button" class="btn btn-success btn-md">Comprar páquete premium</button>
+                                <a class="btn btn-success btn-md" href="https://api.whatsapp.com/send/?phone=529614473143" role="button">Comprar páquete premium</a>
                             </div>
                         </div>
                     </div>
@@ -109,7 +109,7 @@
                             </div>
                             <br><br>
                             <div class="col-12 text-center">
-                                <button type="button" class="btn btn-success btn-md">Comprar páquete avanzado</button>
+                                <a class="btn btn-success btn-md" href="https://api.whatsapp.com/send/?phone=529614473143" role="button">Comprar páquete avanzado</a>
                             </div>
                         </div>
                     </div>
