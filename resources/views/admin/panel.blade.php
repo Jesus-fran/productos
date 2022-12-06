@@ -21,18 +21,27 @@
                                 <label for="input-user" class="form-label">Nombre de usuario</label>
                                 <input type="text" class="form-control" name="user" id="input-user"
                                     aria-describedby="userHelp" value="{{ old('user') }}" required>
-                                <div id="userHelp" class="form-text"></div>
+                                {{-- <div id="userHelp" class="form-text">asasfasf</div> --}}
+                                @error('user')
+                                    <span class="text-danger">{{ $message }}</span>
+                                @enderror
                             </div>
                             <div class="mb-3">
                                 <label for="input-email" class="form-label">Dirección de correo
                                     electrónico</label>
                                 <input type="email" class="form-control" name="email"  value="{{ old('email') }}" id="input-email"
                                     aria-describedby="emailHelp" required>
-                                <div id="emailHelp" class="form-text"></div>
+                                {{-- <div id="emailHelp" class="form-text"></div> --}}
+                                @error('email')
+                                    <span class="text-danger">{{ $message }}</span>
+                                @enderror
                             </div>
                             <div class="mb-3">
                                 <label for="exampleInputPassword1" class="form-label">Contraseña</label>
                                 <input type="password" class="form-control" name="password" id="exampleInputPassword1" required>
+                                @error('password')
+                                    <span class="text-danger">{{ $message }}</span>
+                                @enderror
                             </div>
                             <div class="col text-center">
                                 <button type="submit" id="registrar_user" class="btn btn-success">Registrar</button>

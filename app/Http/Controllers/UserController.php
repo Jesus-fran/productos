@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Requests\RegisUserRequest;
 use Exception;
 use App\Models\UserModel;
 use Illuminate\Http\Request;
@@ -39,7 +40,7 @@ class UserController extends Controller
         
     }
 
-    public function RegistrarUser(Request $request)
+    public function RegistrarUser(RegisUserRequest $request)
     {
         $user = $request->user;
         $email = $request->email;
